@@ -20,11 +20,11 @@ body {
   perspective: 1000px;
 }
 .title {
-  color: #028137;
+  color: #ff3e96;
   font-size: 450%;
   font-weight: 500;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 3%;
   font-family: 'GERALDINE PERSONAL USE';
   src: url('geraldine-personal-use.italic.ttf');
 }
@@ -209,18 +209,18 @@ body {
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
-  background-color: #31b9f3;
-  background-image: linear-gradient(to top, #31b9f3, #31b9f3);
+  background-color: #ff3e96	;
+  background-image: linear-gradient(to top, #ff3e96	, #ff3e96);
 }
 .flower__leaf--2 {
   transform: translate(-50%, -4%) rotateX(40deg);
-  background-color: #31b9f3;
-  background-image: linear-gradient(to top, #31b9f3, #31b9f3);
+  background-color: #ff3e96;
+  background-image: linear-gradient(to top, #ff3e96, #ff3e96);
 }
 .flower__leaf--3 {
   transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg);
-  background-color: #31b9f3;
-  background-image: linear-gradient(to top, #31b9f3, #31b9f3);
+  background-color: #ff3e96;
+  background-image: linear-gradient(to top, #ff3e96, #ff3e96);
 }
 .flower__leaf--4 {
   width: 8vmin;
@@ -228,8 +228,8 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-color: #31b9f3;
-  background-image: linear-gradient(to top, #31b9f3, #31b9f3);
+  background-color: #ff3e96;
+  background-image: linear-gradient(to top, #ff3e96, #ff3e96);
   z-index: 1;
   opacity: 0.8;
 }
@@ -421,14 +421,14 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(0, 200, 255);
+  background-color: rgb(255,62,150);
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
   animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #028137;
+  background-color: rgb(255,62,150);
 }
 .flower__light--1 {
   left: -2vmin;
@@ -1188,7 +1188,7 @@ body {
   -webkit-mask-image: linear-gradient(
     to top,
     transparent 50%,
-    #31b9f3 80%
+    #e822ac 80%
   ) !important;
 }
 .long-g--2 .leaf--1,
