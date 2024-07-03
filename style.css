@@ -28,6 +28,13 @@ body {
   font-family: 'GERALDINE PERSONAL USE';
   src: url('geraldine-personal-use.italic.ttf');
 }
+
+@media only screen and (max-width: 390px ){
+  .title{
+    color: #e7b201;
+  }
+  
+}
 .night {
   position: fixed;
   left: 50%;
